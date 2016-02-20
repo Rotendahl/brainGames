@@ -11,8 +11,8 @@ regnestykker.
 * More coming...
 
 ## Teknisk info.
-Spillene er lavet i den udmærkede spilmotor [Phaser](http://phaser.io), og kan
-spilles [her](rotendahl.dk/brain).
+Spillene er lavet i den udmærkede spilmotor [Phaser](http://phaser.io) 
+version 2.4.4, og kan spilles [her](rotendahl.dk/brain).
 
 Hvis du downloader .zip filen kan du starte spillet ved at gå ned i mappen og skrive.
 ```bash
