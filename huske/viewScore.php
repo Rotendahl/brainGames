@@ -22,13 +22,13 @@
         <?php
             $htmlCode = "<center><h1>Highscores</h1><br>";
             $servername = "rotendahl.dk";
-            $username = "rotendah_hjerne";
+            $username = "rotendah_brain";
             $qry = "SELECT * FROM huske ORDER BY score DESC;";
 
 
             // Create connection
             $con = mysql_connect($servername, $username, $password);
-            $db  = mysql_select_db("rotendah_hjerne", $con);
+            $db  = mysql_select_db("rotendah_brain", $con);
             $res = mysql_query($qry);
 
             $nrRows = 1;

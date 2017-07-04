@@ -59,7 +59,7 @@ void draw() {
         fill(73, 172, 218);
         strokeWeight(20);
         if (mouseY > height / 10) {
-            link("http://rotendahl.dk/games/hjerne/huske/");
+            link("http://rotendahl.dk/games/brain/huske/");
         }
     }
     mouseY = 0;

@@ -51,7 +51,7 @@ int wdt = 0;
 void draw() {
     if (isLoaded) {
         if (mouseY > height / 2) {
-            link("http://rotendahl.dk/games/hjerne/huske/");
+            link("http://rotendahl.dk/games/brain/huske/");
         }
         if (firstLoad) {
             scalePics();

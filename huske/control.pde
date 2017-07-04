@@ -11,7 +11,7 @@ void checkInput() {
         touchHSX = mouseX > highscorePos[0] && mouseX < highscorePos[0] + highscore.width;
         touchHSY = mouseY > highscorePos[1] && mouseY < highscorePos[1] + highscore.height;
         if (touchHSX && touchHSY && !splashDone) {
-            link("http://rotendahl.dk/games/hjerne/huske/viewScore.php");
+            link("http://rotendahl.dk/games/brain/huske/viewScore.php");
         }
     }
     if (state == "spil" && gameStarted && !gameOver) {
