@@ -23,7 +23,6 @@
 
             $servername = "rotendahl.dk";
             $username = "rotendah_hjerne";
-            $password = "xJjdXizs}23B7V[EGMZutmv[sU2";
             $qry = "SELECT * FROM tabel ORDER BY score DESC;";
 
 

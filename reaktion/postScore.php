@@ -21,7 +21,6 @@
 
         $servername = "rotendahl.dk";
         $username = "rotendah_brain";
-        $password = "xJjdXizs}23B7V[EGMZutmv[sU2";
         //INSERT INTO react (perName, score) VALUES ('benj', 314)
         $qry = "INSERT INTO " . $game . " (perName, score) VALUES ( '" . $name . "', " .$score . ")";
 

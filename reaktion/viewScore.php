@@ -25,7 +25,6 @@
 
             $servername = "rotendahl.dk";
             $username = "rotendah_brain";
-            $password = "xJjdXizs}23B7V[EGMZutmv[sU2";
             $qry = "SELECT * FROM reaktion ORDER BY score DESC;";
 
 
