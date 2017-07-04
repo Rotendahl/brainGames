@@ -55,7 +55,7 @@ void draw(){
         fill(73,172,218);
         strokeWeight(20);
         if(mouseY > width/2){
-            link("http://rotendahl.dk/games/hjerne/reaktion");
+            link("http://rotendahl.dk/games/brain/reaktion");
         }
     }
     mouseY = 0;

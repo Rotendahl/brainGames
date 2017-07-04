@@ -1,7 +1,7 @@
 # Formål
 I anledning af projektet "hvem styrer din hjerne" laver jeg i samarbejde med
 Københavns Universitets skoletjeneste en serie af spil der har til formål at
-teste og måle brugerens kognitive/reaktions-evner.  
+teste og måle brugerens kognitive/reaktions-evner.
 
 
 # Spil
@@ -11,7 +11,7 @@ regnestykker.
 * More coming...
 
 ## Teknisk info.
-Spillene er lavet i den udmærkede spilmotor [Phaser](http://phaser.io) 
+Spillene er lavet i den udmærkede spilmotor [Phaser](http://phaser.io)
 version 2.4.4, og kan spilles [her](rotendahl.dk/brain).
 
 Hvis du downloader .zip filen kan du starte spillet ved at gå ned i mappen og skrive.

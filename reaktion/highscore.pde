@@ -56,7 +56,7 @@ class LetterGrid {
         text(str, width / 2, height * 0.8);
 
         if (name[3] != "X" && !hasSent) {
-            String url = "http://rotendahl.dk/games/hjerne/reaktion/postScore.php?game=reaktion&";
+            String url = "http://rotendahl.dk/games/brain/reaktion/postScore.php?game=reaktion&";
             String pName = "name=" + join(this.name, "");
             String score = "&score=" + comLevels;
             link(url + pName + score);

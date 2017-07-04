@@ -9,7 +9,7 @@ void checkInput() {
         touchHSX = mouseX > highscorePos[0] && mouseX < highscorePos[0] + highscore.width;
         touchHSY = mouseY > highscorePos[1] && mouseY < highscorePos[1] + highscore.height;
         if (touchHSX && touchHSY && !splashDone) {
-            link("http://rotendahl.dk/games/hjerne/reaktion/viewScore.php");
+            link("http://rotendahl.dk/games/brain/reaktion/viewScore.php");
         }
     }
     if (state == "spil" && !gameOver) {

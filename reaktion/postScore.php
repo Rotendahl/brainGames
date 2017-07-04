@@ -20,7 +20,7 @@
         $score = $_GET["score"];
 
         $servername = "rotendahl.dk";
-        $username = "rotendah_hjerne";
+        $username = "rotendah_brain";
         $password = "xJjdXizs}23B7V[EGMZutmv[sU2";
         //INSERT INTO react (perName, score) VALUES ('benj', 314)
         $qry = "INSERT INTO " . $game . " (perName, score) VALUES ( '" . $name . "', " .$score . ")";
@@ -28,7 +28,7 @@
         //echo $qry;
         // Create connection
         $con = mysql_connect($servername, $username, $password);
-        $db  = mysql_select_db("rotendah_hjerne", $con);
+        $db  = mysql_select_db("rotendah_brain", $con);
         $res = mysql_query($qry);
 
         ?>

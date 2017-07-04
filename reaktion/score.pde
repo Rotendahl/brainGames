@@ -47,7 +47,7 @@ int wdt = 0;
 void draw(){
     if(isLoaded){
         if(mouseY > width/2){
-            link("http://rotendahl.dk/games/hjerne/reaktion");
+            link("http://rotendahl.dk/games/brain/reaktion");
         }
         if(firstLoad){
             scalePics();
