@@ -1,22 +1,18 @@
-# Formål
-I anledning af projektet "hvem styrer din hjerne" laver jeg i samarbejde med
-Københavns Universitets skoletjeneste en serie af spil der har til formål at
-teste og måle brugerens kognitive/reaktions-evner.
+# Brain based smartphone web-games
+![screenshot.png](screenshot.png)
+
+The school service of the university of Copenhagen contaced me and asked me to
+code three small games that asked the player to perform different cognitive
+tasks. The games uses [processing.js](http://processingjs.org) and run on any
+smartphone. The games can be found at this url:
+[rotendahl.dk/games/brain](http://rotendahl.dk/games/brain)
 
 
-# Spil
-* React - Et spil der tester hvor god brugerens reaktionsevner er ved at teste
-hvor hurtigt de kan danne overblik over en orienteret graf og lave simple
-regnestykker.
-* More coming...
+### The platform
+The games consist of several _.pde_ files and is put an a html canvas with the
+help of processing. The games were made responsive with the help of this repo
+[jProcessingJS](https://github.com/GildasP/jProcessingJS)
 
-## Teknisk info.
-Spillene er lavet i den udmærkede spilmotor [Phaser](http://phaser.io)
-version 2.4.4, og kan spilles [her](rotendahl.dk/brain).
 
-Hvis du downloader .zip filen kan du starte spillet ved at gå ned i mappen og skrive.
-```bash
-    $ python -m SimpleHTTPServer .
-```
-
-Spillet vil derefter kunne ses på localhost:8000/react
+If you want to read more about the games and how it was working with processing
+I've written a post about it [here](http://rotendahl.dk/Processing-Games/) 
